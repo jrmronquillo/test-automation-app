@@ -1,4 +1,3 @@
-#import stbt 
 import socket    # used for TCP/IP communication
 import smtplib   # used to send email report
 import time      # used to insert current date in email report
@@ -79,4 +78,11 @@ def keyPressAPI(rack, key, slot):
 
 
 
- 
+def tune(channel, rack, slot):
+	
+	for i in channel:
+		print i
+		keyPressAPI(rack, i, slot)
+		time.sleep(1)
+
+	return "Function to tune to channel" 
