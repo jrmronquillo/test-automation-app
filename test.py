@@ -10,9 +10,13 @@ slot = "1-16"
 
 keySend.keyPressAPI(rack, "exit", slot)
 time.sleep(1)
+# tune to sports mix
 keySend.tune("205", rack, slot)
+# open app
 keySend.keyPressAPI(rack, "red", slot)
-stbt.wait_for_match('images/tvapps1.png')
+
+keySend.keyPressAPI(rack, "downArrow", slot)
+stbt.wait_for_match('images/scoreguide_highlight.png')
 print "test file executed"
 
 
