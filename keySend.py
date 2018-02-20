@@ -84,5 +84,6 @@ def tune(channel, rack, slot):
 		print i
 		keyPressAPI(rack, i, slot)
 		time.sleep(1)
-
+	# Delay to wait for info banner to disappear
+	time.sleep(6)
 	return "Function to tune to channel" 
