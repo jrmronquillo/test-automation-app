@@ -4,11 +4,11 @@ import smtplib   # used to send email report
 import time      # used to insert current date in email report
 import sys
 
-#if len(sys.argv) < 3:
-#	print "Error: Need to Provide (rack, command, slot) as arguments"
-#	sys.exit(0)
+if len(sys.argv) < 3:
+	print "Error: Need to Provide (rack, command, slot) as arguments"
+	sys.exit(0)
 
-#key = sys.argv[2]
+key = sys.argv[2]
 
 
           
