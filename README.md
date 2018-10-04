@@ -10,11 +10,18 @@ This is an automated test script that executes a set of commands while looking f
 6. If Server does not find a match within 10 seconds, stop script and report.
 
 * ## Installation
+Install stb-tester on Ubuntu Server
 ```
 sudo apt-get install stb-tester
 
 ```
 API Reference: <https://stb-tester.com/manual-stb-tester-one/python-api> 
+
+Clone or Download test-automation-app project to Ubuntu Server.
+Change directory into test-automation-app project.
+```
+cd test-automation-app
+```
 
 * ## Usage
 Start Script
