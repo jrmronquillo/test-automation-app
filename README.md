@@ -28,3 +28,12 @@ Start Script
 ```
 python Scoreguide/test.py
 ```
+Server should execute the predefined script steps. See example below:
+```
+def main():
+	keySend.keyPressAPI(rack, "exit", slot)
+
+	# verify snipe red button
+	stbt.wait_for_match('images/red_button.png')
+
+```
