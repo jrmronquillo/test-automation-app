@@ -10,8 +10,14 @@ This is an automated test script that executes a set of commands while looking f
 6. If Server does not find a match within 10 seconds, stop script and report.
 
 * ## Installation
+```
+sudo apt-get install stb-tester
+
+```
+API Reference: <https://stb-tester.com/manual-stb-tester-one/python-api> 
 
 * ## Usage
+Start Script
 ```
 python Scoreguide/test.py
 ```
