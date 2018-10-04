@@ -28,7 +28,7 @@ Start Script
 ```
 python Scoreguide/test.py
 ```
-Server should execute the predefined script steps. See example below:
+Server should execute the predefined script steps. See example below where the script sends a command and looks for the result.
 ```
 def main():
 	keySend.keyPressAPI(rack, "exit", slot)
