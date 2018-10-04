@@ -38,3 +38,5 @@ def main():
 	stbt.wait_for_match('images/red_button.png')
 
 ```
+* ## Additional Notes
+This codebase contains more complex experimentations of the test script API bundled into python functions.
