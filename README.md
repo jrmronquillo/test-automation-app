@@ -27,7 +27,7 @@ cd test-automation-app
 * ## Usage
 Start Script
 ```
-python Scoreguide/test.py
+stbt run Scoreguide/test.py
 ```
 Server should execute the predefined script steps. See example below where the script sends a command and looks for the result.
 ```
