@@ -8,7 +8,7 @@ This is an automated test script designed to assist in software testing.
 3. Server observes video output of device.
 4. Server compares video output to a predefined image that represents a passing test
 5. If Server finds a match, the script moves on to the next script step
-6. If Server does not find a match within 10 seconds, the script stops and reports data.
+6. If Server does not find a match within 10 seconds, the script stops and reports test failure.
 
 * ## Installation
 Install stb-tester on Ubuntu Server
